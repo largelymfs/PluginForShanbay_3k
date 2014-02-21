@@ -3197,7 +3197,7 @@ function initialize_map(map){
 
 var map = new Map();
 initialize_map(map);
-setInterval(do_it,1000);
+setInterval(do_it,100);
 
 function do_it(){
     var word = fetch_word();
@@ -3209,7 +3209,7 @@ function do_it(){
     s2.html(explanation);
     //alert($("tbody").html());
     //For summary
-    var table = $("[id^=summary][class^=alert]").each(function(i){
+    var table = $("[id^=summary][data-id]").each(function(i){
     	var item_word = $(this).children('.word').html();
     	var item_explaination = map.get(item_word);
     	$(this).children('[class^=definition]').html(item_explaination);
