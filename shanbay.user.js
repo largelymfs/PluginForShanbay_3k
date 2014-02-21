@@ -3200,7 +3200,7 @@ initialize_map(map);
 setInterval(do_it,1000);
 
 function do_it(){
-    var word = fetch_word().toLowerCase();
+    var word = fetch_word();
     var explanation = map.get(word);
     var s = $('#definition-cn-hint');
     var html1 = ' <div class="span10 offset1"> <div class="hint-content"> '+ explanation + ' </div>  </div>';
@@ -3210,7 +3210,7 @@ function do_it(){
     //alert($("tbody").html());
     //For summary
     var table = $("[id^=summary][class^=alert]").each(function(i){
-    	var item_word = $(this).children('.word').html().toLowerCase();
+    	var item_word = $(this).children('.word').html();
     	var item_explaination = map.get(item_word);
     	$(this).children('[class^=definition]').html(item_explaination);
     });
