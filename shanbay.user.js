@@ -3,7 +3,7 @@
 // @name          Hello World
 // @namespace     http://diveintogreasemonkey.org/download/
 // @description   an script for Shanbay
-// @include       http://www.shanbay.com/bdc/review/
+// @include       https://www.shanbay.com/bdc/review/
 // @exclude       http://diveintogreasemonkey.org/*
 // @exclude       http://www.diveintogreasemonkey.org/*
 // ==/UserScript==
