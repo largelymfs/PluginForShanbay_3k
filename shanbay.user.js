@@ -2585,9 +2585,10 @@ function initialize_map(map){
 	map.put("taxing","繁重的，费力的：requiring much time, effort");
 	map.put("tedious","冗长乏味的：tiresome, dullness, boring");
 	map.put("teeter","蹒跚，不稳定地行走：unsteadily；犹豫不决：uncertainty");
-	map.put("telling","禁酒：abstinence alcoholic");
-	map.put("temerity","有效的，显著的：effective");
-	map.put("temporize","鲁莽，冒失：foolhardy, recklessness；行动躲躲闪闪以争取时间、躲避争论等：act evasively");
+	map.put("teetotalism","禁酒： abstinence alcoholic")
+	map.put("telling","有效的，显著的：effective");
+	map.put("temerity","鲁莽，冒失：foolhardy, recklessness");
+	map.put("temporize","行动躲躲闪闪以争取时间、躲避争论等：act evasively");
 	map.put("temperate","（言行举止）有分寸的：avoiding extremes；有节制的：restraint");
 	map.put("tempestuous","突然的，剧烈的：sudden or violent");
 	map.put("tenable","有据可依的，无懈可击的：capable defended, reasonable");
