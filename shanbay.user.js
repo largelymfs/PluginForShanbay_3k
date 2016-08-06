@@ -1580,8 +1580,8 @@ function initialize_map(map){
 	map.put("marsh","沼泽，湿地：wet");
 	map.put("martinet","纪律严明之人：strict");
 	map.put("marvel","令人惊奇的事物：surprise, admiration or wonder；（因为壮观、美丽等而）表示惊讶：feel amazement");
-	map.put("masquerade","捣碎：pulpy mass");
-	map.put("mash","面具，伪装：display insincere；伪装，掩饰：disguise");
+	map.put("masquerade","面具，伪装：display insincere；伪装，掩饰：disguise");
+	map.put("mash","捣碎：pulpy mass");
 	map.put("mastery","技艺超群，精通：great skill");
 	map.put("matriculate","入学；录取：admit or be admitted");
 	map.put("maudlin","过于感伤的：tearfully sentimental");
