@@ -2085,8 +2085,8 @@ function initialize_map(map){
 	map.put("rapprochement","和睦，友好：cordial relations");
 	map.put("rapscallion","流氓，恶棍：evil");
 	map.put("rapt","狂喜的，狂热的：pleasurable emotion；全神贯注的：deeply absorbed");
-	map.put("rash","使稀薄：make rare");
-	map.put("rarefy","草率的，仓促的：lack caution");
+	map.put("rash","草率的，仓促的：lack caution");
+	map.put("rarefy","使稀薄：make rare");
 	map.put("raspy","声音刺耳的：harsh；容易生气的：easily irritated");
 	map.put("ratify","（官方地）认可，批准：official acceptance");
 	map.put("ratiocination","推理：thought processes");
