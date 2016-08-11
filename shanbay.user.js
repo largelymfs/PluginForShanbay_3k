@@ -1313,8 +1313,8 @@ function initialize_map(map){
 	map.put("implacable","固执的：sticking to an opinion；无法平息的：not capable of being appeased");
 	map.put("implement","工具：device；执行，实施：carry out");
 	map.put("implode","（使）剧烈收缩，（使）坍塌，（使）内爆：collapse inward");
-	map.put("imposing","恳求，迫切请求：urgent manner");
-	map.put("importune","宏伟壮丽的：impressive");
+	map.put("imposing","宏伟壮丽的：impressive");
+	map.put("importune","恳求，迫切请求：urgent manner");
 	map.put("impostor","冒充者：assumes false identity");
 	map.put("impotent","无生育能力的：unable to produce fruit；无力的，无能的：lacking in power");
 	map.put("imprecise","不精确的：not precise");
@@ -1704,9 +1704,9 @@ function initialize_map(map){
 	map.put("nerve","（坚强的）意志，勇气：power of endurance；给予勇气，鼓励：give courage");
 	map.put("nettle","惹怒：arouse anger");
 	map.put("neutralize","中和：acid undergo neutralization；破坏，使无效：make inoperative or ineffective");
-	map.put("nicety","连结：connection；核心，最重要的地带：greatest importance");
-	map.put("nexus","小口咬：small bites");
-	map.put("nibble","准确，精准：careful details；细微之处：fine point");
+	map.put("nicety","准确，精准：careful details；细微之处：fine point");
+	map.put("nexus","连结：connection；核心，最重要的地带：greatest importance");
+	map.put("nibble","小口咬：small bites");
 	map.put("nil","不存在，零：nothing");
 	map.put("nip","少量：small amount；小口吃喝：in small amounts");
 	map.put("nitpick","吹毛求疵：criticize");
