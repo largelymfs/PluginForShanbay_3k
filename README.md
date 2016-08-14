@@ -4,23 +4,17 @@
 
 ![alt tag](http://img3x8.ddimg.cn/15/18/23458758-1_w_1.jpg)
 
-### How-To:
+### For Firefox users:
 
-1. Open Firefox to install Add-on named "GreaseMonkey"
-  1. Or open Chrome to install extension named "Tampermonkey"
-2. Download "shanbay.user.js" from this repository to local
-3. Drag "shanbay.user.js" to your web browser, follow steps to set it up
-4. If drag does not work for Chrome, 
-  5. you have to manually "Add a new script" by clicking the icon 
-
-
-### 中文教程：
 1. 打开火狐浏览器安装一个叫“GreaseMonkey”的插件
-  1. 如果您使用谷歌浏览器请安装一个叫“Tampermonkey”的插件
-2. 然后返回这个项目界面，下载“shanbay.user.js”这个文件
+2. 然后返回本项目的界面，下载(clone or download) “shanbay.user.js”这个文件
 3. 再从本地把“shanbay.user.js”这个文件拖到浏览器中，根据浏览器的提示进行操作
-4. 如果在Chrome中拖文件不成功的话，用户需要用"Tampermonkey"手动添加脚本文件
 
+### For Google Chrome users:
+1. 打开谷歌浏览器请安装一个叫“Tampermonkey”的插件
+2. 点击右上角“Tampermoneky”的图标，有一个选项叫“Add a new script", 点击后会看见“New userscript”
+2. 然后回到本项目的界面，打开“shanbay.user.js”这个文件
+3. 复制粘贴“shanbay.user.js”中的代码到“New userscript”, 点击左上角保存后就可以使用了
 
 
 
