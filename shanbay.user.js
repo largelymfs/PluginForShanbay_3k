@@ -1379,8 +1379,8 @@ function initialize_map(map){
 	map.put("inflame","点燃，燃烧：set on fire；使加剧：more violent");
 	map.put("infelicitous","不愉快的，不幸的：unfortunate；不恰当的，不合时宜的：not appropriate");
 	map.put("influx","涌入：coming in");
-	map.put("infuse","激怒：make furious");
-	map.put("infuriate","灌输，使…充满：fill；鼓舞：inspire");
+	map.put("infuse","灌输，使…充满：fill；鼓舞：inspire");
+	map.put("infuriate","激怒：make furious");
 	map.put("ingenious","聪明的，有创造才能的：resourceful, cleverness");
 	map.put("ingenuity","独创性，创新性：inventive");
 	map.put("ingenuous","天真纯朴的：lacking cunning；坦白的：straightforward");
@@ -1995,8 +1995,8 @@ function initialize_map(map){
 	map.put("prolix","啰嗦的，冗长的：excessive length");
 	map.put("prologue","序言：preface");
 	map.put("prolong","延长，拖延：lengthen");
-	map.put("proofread","正式宣布：make known");
-	map.put("promulgate","校对：find errors and mark corrections");
+	map.put("proofread","校对：find errors and mark corrections");
+	map.put("promulgate","正式宣布：make known");
 	map.put("propagate","繁殖：increase；传播，宣传：spread out");
 	map.put("propensity","倾向，癖好：inclination");
 	map.put("prophetic","预言的，预示的：foretelling");
@@ -2025,8 +2025,8 @@ function initialize_map(map){
 	map.put("prowess","英勇，勇敢：superior, courage");
 	map.put("prowl","潜行于，巡游以猎取食物，徘徊：roam through search of prey");
 	map.put("prude","过分正经的人：一个过分关心自己是否得体、谦逊、或正确的人：greatly concerned seemly behavior and morally");
-	map.put("prudish","明智的：wisdom, judiciousness, wise；小心谨慎的，审慎的：circumspection");
-	map.put("prudent","过分守礼的：prudery");
+	map.put("prudish","过分守礼的：prudery");
+	map.put("prudent","明智的：wisdom, judiciousness, wise；小心谨慎的，审慎的：circumspection");
 	map.put("prune","梅干：plum dried；修剪；修正");
 	map.put("pry","刺探，打听：inquire closely, curiously；");
 	map.put("pseudonym","假名，笔名：fictitious");
