@@ -1430,7 +1430,7 @@ function initialize_map(map){
 	map.put("intimidate","威吓：frighten");
 	map.put("intoxicant","使人陶醉的东西（尤指酒精饮料）：intoxicates");
 	map.put("intransigent","不妥协的，固执的：refusal to compromise");
-	map.put("intrepid","无谓的：resolute fearlessness");
+	map.put("intrepid","无畏的：resolute fearlessness");
 	map.put("intrigue","阴谋：a secret plan；激起…的兴趣：arouse curiosity");
 	map.put("intrinsic","固有的，内在的：essential");
 	map.put("intuitive","直觉的：by intuition");
