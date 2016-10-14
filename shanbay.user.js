@@ -997,7 +997,7 @@ function initialize_map(map){
 	map.put("exploit","英雄行为：notable act；最大程度地利用：employ");
 	map.put("exponent","倡导者，支持者：advocates；实践者，典型代表：full realization");
 	map.put("expurgate","净化（书等），删去（不当处）：remove");
-	map.put("exquisite","成都强烈的：extreme；精致精巧的：refined taste");
+	map.put("exquisite","程度强烈的：extreme；精致精巧的：refined taste");
 	map.put("extant","现存的：not destroyed, extinct");
 	map.put("extemporize","即兴表现：without prior preparation");
 	map.put("extenuate","减轻罪过：lessen the seriousness");
