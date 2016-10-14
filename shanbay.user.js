@@ -997,7 +997,7 @@ function initialize_map(map){
 	map.put("exploit","英雄行为：notable act；最大程度地利用：employ");
 	map.put("exponent","倡导者，支持者：advocates；实践者，典型代表：full realization");
 	map.put("expurgate","净化（书等），删去（不当处）：remove");
-	map.put("exquisite","成都强烈的：extreme；精致精巧的：refined taste");
+	map.put("exquisite","程度强烈的：extreme；精致精巧的：refined taste");
 	map.put("extant","现存的：not destroyed, extinct");
 	map.put("extemporize","即兴表现：without prior preparation");
 	map.put("extenuate","减轻罪过：lessen the seriousness");
@@ -1430,7 +1430,7 @@ function initialize_map(map){
 	map.put("intimidate","威吓：frighten");
 	map.put("intoxicant","使人陶醉的东西（尤指酒精饮料）：intoxicates");
 	map.put("intransigent","不妥协的，固执的：refusal to compromise");
-	map.put("intrepid","无谓的：resolute fearlessness");
+	map.put("intrepid","无畏的：resolute fearlessness");
 	map.put("intrigue","阴谋：a secret plan；激起…的兴趣：arouse curiosity");
 	map.put("intrinsic","固有的，内在的：essential");
 	map.put("intuitive","直觉的：by intuition");
