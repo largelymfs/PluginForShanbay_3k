@@ -57,28 +57,37 @@ var dict = new Dict()
 initialize_dict(dict)
 
 function fetch_word () {
-  return $('h1').html()
+  var h1 = $('h1')
+  if (h1.length > 0) {
+    return $('h1').html()
+  } else {
+    return null
+  }
 }
 
 function do_it () {
   var word = fetch_word()
-  var explanation = dict.get(word)
-  if (explanation !== null) {
-    var s = $('#definition-cn-hint')
-    var html1 = ' <div class="span10 offset1"> <div class="hint-content"> ' + explanation + ' </div>  </div>'
-    s.html(html1)
-    var s2 = $('.text')
-    s2.html(explanation)
-    // alert($("tbody").html());
+  if (word !== null) {
+    var explanation = dict.get(word)
+    if (explanation !== null) {
+      var s = $('#definition-cn-hint')
+      var html1 = ' <div class="span10 offset1"> <div class="hint-content"> ' + explanation + ' </div>  </div>'
+      s.html(html1)
+      var s2 = $('.text')
+      s2.html(explanation)
+    }
+  } else {
     // For summary
-    var table = $('[id^=summary][data-id]').each(function (i) {
-      var item_word = $(this).children('.word').html()
-      var item_explaination = dict.get(item_word)
-      $(this).children('[class^=definition]').html(item_explaination)
-    })
-    /* $.each(table,function(i, val){
-     alert(val.html());
-     }); */
+    var table = $('[id^=summary][data-id]')
+    if (table.length > 0) {
+      table.each(function (i) {
+        var item_word = $(this).children('.word').html()
+        var item_explanation = dict.get(item_word)
+        if (item_explanation !== null) {
+          $(this).children('[class^=definition]').html(item_explanation)
+        }
+      })
+    }
   }
 }
 
