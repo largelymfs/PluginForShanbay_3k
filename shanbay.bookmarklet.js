@@ -83,12 +83,6 @@ javascript: (function() {
             });
           }
         }
-        if(is_iphone){
-          var continue_button = $('a.continue.continue-button');
-          if (continue_button.length > 0){
-            continue_button.attr('style', 'left: 75%25; top: 50%25');
-          }
-        }
       }
 
 
@@ -113,6 +107,14 @@ var config = {attributes: true, childList: true, characterData: true };
 observer.observe(target, config);
 
 
+      if(is_iphone){
+        setInterval(function(){
+          var continue_button = $('a.continue.continue-button');
+          if (continue_button.length > 0){
+            continue_button.attr('style', 'left: 75%25; top: 50%25');
+          }
+        }, 10);
+      }
 
     }).fail(function(err) {
       alert(err.responseText);
