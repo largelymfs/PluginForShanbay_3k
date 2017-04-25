@@ -18,12 +18,17 @@
 
 ### For Safari (Mac, iOS) and Chrome iOS users:
 1. 新建书签
-2. 把书签的地址清空，把 "shanbay.bookmarlet" 的内容复制到书签地址栏。
-3. 保存。
-4. 需要使用时，先进入 "shanbay.com/bdc/review"，然后点击该书签，待弹出 "success" 提示框之后，即可正常。
+2. 把书签的地址清空，把 "shanbay.bookmarlet" 的内容复制到书签地址栏
+3. 保存
+4. 需要使用时，先进入 "shanbay.com/bdc/review"，然后点击该书签，待弹出 "success" 提示框之后，即可正常
 
 
 ### update log
+
+2017.04.25
+
+增加 移动设备的使用方式: 书签。
+
 
 2017.04.08
 
