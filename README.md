@@ -16,6 +16,11 @@
 2. 然后回到本项目的界面，打开“shanbay.user.js”这个文件
 3. 复制粘贴“shanbay.user.js”中的代码到“New userscript”, 点击左上角保存后就可以使用了
 
+### For Safari (Mac, iOS) and Chrome iOS users:
+1. 新建书签
+2. 把书签的地址清空，把 "shanbay.bookmarlet" 的内容复制到书签地址栏。
+3. 保存。
+4. 需要使用时，先进入 "shanbay.com/bdc/review"，然后点击该书签，待弹出 "success" 提示框之后，即可正常。
 
 
 ### update log
