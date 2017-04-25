@@ -34,11 +34,12 @@ javascript: (function() {
         'overflow': 'auto'
       });
 
+      var is_iphone = navigator.userAgent.toLowerCase().includes('iphone');
 
       function Dict() {
         this.elements = {};
-        this.get = function(_key) {
-          return this.elements[_key] || null;
+        this.get = function(key) {
+          return this.elements[key] || null;
         }
       }
 
@@ -65,7 +66,7 @@ javascript: (function() {
           var explanation = dict.get(word);
           if (explanation !== null) {
             var s = $('#definition-cn-hint');
-            var html1 = ' <div class="span10 offset1"> <div class="hint-content"> ' + explanation + ' </div>  </div>';
+            var html1 = '<div class="span10 offset1"><div class="hint-content">'+explanation +'</div></div>';
             s.html(html1);
             var s2 = $('.text');
             s2.html(explanation);
@@ -80,6 +81,12 @@ javascript: (function() {
                 $(this).children('[class^=definition]').html(item_explanation);
               }
             });
+          }
+        }
+        if(is_iphone){
+          var continue_button = $('a.continue.continue-button');
+          if (continue_button.length > 0){
+            continue_button.attr('style', 'left: 75%25; top: 50%25');
           }
         }
       }
@@ -101,7 +108,7 @@ var observer = new MutationObserver(function (mutations) {
 });
 
 
-var config = { attributes: true, childList: true, characterData: true };
+var config = {attributes: true, childList: true, characterData: true };
 
 observer.observe(target, config);
 
